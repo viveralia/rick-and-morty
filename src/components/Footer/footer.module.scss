@@ -1,0 +1,16 @@
+@import "../../globalStyles/variables";
+
+.copyright {
+  color: $mutedText;
+  a {
+    color: $text;
+    &:hover {
+      text-decoration: none;
+      color: $text;
+    }
+  }
+}
+
+.icon {
+  vertical-align: text-top;
+}

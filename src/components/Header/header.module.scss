@@ -1,0 +1,13 @@
+@import "../../globalStyles/variables";
+
+.heading {
+  font-family: $altFont;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.subheading {
+  font-size: 0.825rem;
+  color: $mutedText;
+}

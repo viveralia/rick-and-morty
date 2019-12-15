@@ -1,0 +1,19 @@
+@import "../../../globalStyles/variables";
+
+.dead {
+  img {
+    filter: grayscale(95%);
+  }
+}
+
+.info {
+  margin: 1.25rem 0 3.5rem 0;
+  h3 {
+    font-family: $altFont;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  p {
+    color: $mutedText;
+  }
+}
